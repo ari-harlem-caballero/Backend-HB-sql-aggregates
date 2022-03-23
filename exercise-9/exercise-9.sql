@@ -8,8 +8,4 @@ SELECT
 FROM
   payment
 GROUP BY
-  ROLLUP (
-    y,
-    m,
-    d
-  )
+  ROLLUP (y, m, d)
